@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { AiOutlineDownload } from 'react-icons/ai';
-import Saifil from '../assets/images/saifil.jpg';
+// import Saifil from '../assets/images/saifil.jpg';
 
 const Intro = () => {
     return (

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Header from '../components/header';
-import Intro from '../components/intro';
+import AppNav from '../components/nav'; 
+import Intro from '../components/intro/intro';
 import Work from '../components/work';
 import ContactModal from '../components/contact-modal';
 import { AnimatePresence } from 'framer-motion';
@@ -12,7 +12,7 @@ const Home = () => {
     const close = () => { setShowContact(false) }
     return (
         <div>
-            <Header open={open} />
+            <AppNav open={open} />
 
             <Intro />
             <Work />
