@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Wrapper from '../components/UI/Wrapper';
+import Wrapper from '../components/ui/Wrapper';
 import AppNav from '../components/nav';
 import saifil from '../assets/images/saifil.jpg'
 
