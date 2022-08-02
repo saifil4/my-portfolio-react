@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import AppNav from '../components/nav';
 
 const ProjectDetail = () => {
 
@@ -10,7 +11,7 @@ const ProjectDetail = () => {
   }, [])
 
   return (
-    <div>project-detail</div>
+    <AppNav />
   )
 }
 

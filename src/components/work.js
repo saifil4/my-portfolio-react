@@ -9,7 +9,6 @@ const Work = () => {
                 <Project type='agileBoard' />
                 <Project type='portfolio' />
                 <Project type='covid' />
-                <Project type='linesandboxes' />
             </div>
         </div>
     );
