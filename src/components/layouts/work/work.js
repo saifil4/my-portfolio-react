@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './project';
+import Project from '../../project';
 
 const Work = () => {
     return (

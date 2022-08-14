@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const ModalBackdrop = ({ children, onClick }) => {
+const BackDrop = ({ children, onClick }) => {
     return (
         <motion.div
             className='absolute top-0 left-0 h-full w-full bg-black bg-opacity-75 flex items-center justify-center'
@@ -14,4 +14,4 @@ const ModalBackdrop = ({ children, onClick }) => {
     );
 };
 
-export default ModalBackdrop;
+export default BackDrop;

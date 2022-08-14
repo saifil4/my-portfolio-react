@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import AppNav from '../components/nav';
+import AppNav from '../components/layouts/nav';
 
 const ProjectDetail = () => {
 
