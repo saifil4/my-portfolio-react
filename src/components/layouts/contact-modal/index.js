@@ -1,6 +1,6 @@
 import React from "react";
 import BackDrop from "./BackDrop";
-import { IoMdSend, IoMdClose } from "react-icons/io";
+import { IoMdClose } from "react-icons/io";
 import { motion } from "framer-motion";
 import Form from "./form";
 

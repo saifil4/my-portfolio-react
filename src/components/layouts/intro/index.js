@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { AiOutlineDownload } from "react-icons/ai";
+import DownloadButton from "./DownloadButton";
 // import Saifil from '../assets/images/saifil.jpg';
 
 const Intro = () => {
@@ -70,13 +70,7 @@ const Intro = () => {
           <button className="py-2 px-5 bg-white border font-medium text-theme-blue rounded mr-5">
             Contact me
           </button>
-          <button className="py-2 px-5 border-white border text-white rounded inline-flex items-center opacity-80">
-            Download Resume
-            <AiOutlineDownload
-              style={{ fontSize: "20px" }}
-              className="inline-block ml-2"
-            />
-          </button>
+          <DownloadButton />
         </motion.div>
       </div>
     </div>
