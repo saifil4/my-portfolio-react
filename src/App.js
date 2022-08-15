@@ -1,5 +1,5 @@
-import './App.css';
 import Home from './pages/Home';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Route, Routes, useLocation } from 'react-router-dom';
 import ProjectDetail from './pages/ProjectDetail';
 import { AnimatePresence } from 'framer-motion';

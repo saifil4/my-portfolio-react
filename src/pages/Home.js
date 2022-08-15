@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import AppNav from "../components/layouts/nav";
-import Intro from "../components/layouts/intro/intro";
-import Work from "../components/layouts/work/work";
+import Intro from "../components/layouts/intro";
+import Work from "../components/layouts/work";
 import { AnimatePresence } from "framer-motion";
-import About from "../components/layouts/about/About";
-import ContactInfo from "../components/layouts/contact-info/ContactInfo";
+import About from "../components/layouts/about";
+import ContactInfo from "../components/layouts/contact-info";
 import ContactModal from "../components/layouts/contact-modal";
+import Testimonials from "../components/layouts/testimonials";
 
 const Home = () => {
   const [showContact, setShowContact] = useState(false);
@@ -18,7 +19,9 @@ const Home = () => {
       <Intro />
       <Work />
       <About />
+      <Testimonials/>
       <ContactInfo />
+      
       <AnimatePresence
         initial={false}
         exitBeforeEnter={true}
