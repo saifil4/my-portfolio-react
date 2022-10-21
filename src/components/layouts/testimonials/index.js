@@ -29,6 +29,7 @@ const Testimonials = () => {
     <div className="py-10 md:px-32 flex flex-col px-5 items-center">
       <div className="h-[calc(100vh-3.5rem)] max-w-3xl flex w-full flex-col justify-center items-baseline space-y-4 md:h-auto">
         <Title label="Testimonials" isCentered={true} />
+        <p className="text-center">What people say about me?</p>
         <Carousel dynamicHeight={true} >
           {testmonials.map((testimonial, index) => (
             <Card key={index} testimonial={testimonial} />

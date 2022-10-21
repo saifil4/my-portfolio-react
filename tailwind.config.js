@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        'theme-blue':'#0052CC'
+        'theme-blue':'#1864FF'
       }
     },
     fontFamily:{

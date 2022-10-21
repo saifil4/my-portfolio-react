@@ -4,7 +4,7 @@ import Title from "../../ui/Title";
 const About = () => {
   return (
     <>
-      <div className="relative px-8 md:flex-row md:px-32">
+      <div className="relative px-8 md:flex-row md:px-32 bg-slate-600 py-12 text-white h-screen">
         <div className="col-span-4">
          <Title label="About me" />
           <p className="mt-5">

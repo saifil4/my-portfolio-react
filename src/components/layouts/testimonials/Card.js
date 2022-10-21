@@ -4,7 +4,7 @@ const Card = ({ testimonial }) => {
   return (
     <div>
       <div className="">
-        <p>{testimonial.description}</p>
+        <p className="font-header italic text-md" >{testimonial.description}</p>
         <p>
           <b>{testimonial.name}</b>
         </p>
